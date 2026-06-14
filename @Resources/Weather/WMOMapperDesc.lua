@@ -35,6 +35,7 @@ function GetDescription(wmoCode, isDay)
     if code == 1 then return isDay and 'Mostly Sunny' or 'Mostly Clear' end
     if code == 2 then return 'Partly Cloudy' end
     if code == 3 then return 'Cloudy' end
+    if code == 5 then return 'Cloudy' end
 
     if code == 45 or code == 48 then return 'Fog' end
     if code == 51 or code == 53 or code == 55 then return 'Drizzle' end
