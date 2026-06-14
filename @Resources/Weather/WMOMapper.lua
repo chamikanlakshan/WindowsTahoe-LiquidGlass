@@ -44,6 +44,7 @@ function GetIconName(wmoCode, isDay)
     end
 
     if code == 45 or code == 48 then return 'fog' end
+    if code == 5 then return 'cloudy' end
     if code == 51 or code == 53 or code == 55 then return isDay and 'drizzle-day' or 'drizzle-night' end
     if code == 56 or code == 57 or code == 66 or code == 67 then return 'sleet' end
     if code == 61 or code == 63 or code == 80 or code == 81 then return 'rain' end
