@@ -2,7 +2,7 @@
 
 Transform your desktop to look like macOS Tahoe with these visually stunning, translucent widgets.
 
-![Alt text](https://www.deviantart.com/stash/028m6ch1xh9c)
+(https://www.deviantart.com/stash/028m6ch1xh9c)
 
 ### 📱 Included Widgets (13)
 
