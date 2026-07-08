@@ -206,6 +206,9 @@ function ToggleTransparency()
         end
     end
 
+    bangs[#bangs + 1] = '[!SetVariable TransparencyDisabled ' .. newVal .. ']'
+    bangs[#bangs + 1] = '[!UpdateMeasure MeasureTransparencyState]'
+
     SKIN:Bang(table.concat(bangs))
 end
 

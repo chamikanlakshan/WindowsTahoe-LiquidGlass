@@ -19,9 +19,13 @@ function ApplyScale()
     if scale > 2.0 then scale = 2.0 end
     scale = math.floor(scale * 10000 + 0.5) / 10000
 
-    -- 1. Write ScaleDpi using native Rainmeter bang
-    local globalPath = SKIN:GetVariable('@') .. 'GlobalSettings.inc'
-    SKIN:Bang('!WriteKeyValue', 'Variables', 'ScaleDpi', tostring(scale), globalPath)
+    local override = tonumber(SKIN:GetVariable('OverrideAutoScale')) or 0
+    if override == 1 then
+        scale = tonumber(SKIN:GetVariable('ScaleDpi')) or 1
+    else
+        local globalPath = SKIN:GetVariable('@') .. 'GlobalSettings.inc'
+        SKIN:Bang('!WriteKeyValue', 'Variables', 'ScaleDpi', tostring(scale), globalPath)
+    end
 
     local function px(val) return math.floor(val + 0.5) end
     
