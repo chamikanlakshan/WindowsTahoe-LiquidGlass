@@ -2,7 +2,7 @@
 
 Transform your desktop to look like macOS Tahoe with these visually stunning, translucent widgets.
 
-(https://www.deviantart.com/stash/028m6ch1xh9c)
+![Alternative Text](https://github.com/chamikanlakshan/WindowsTahoe-LiquidGlass/blob/main/@Resources/Images/Thumbs/Layout02.jpg?raw=true)
 
 ### 📱 Included Widgets (13)
 
