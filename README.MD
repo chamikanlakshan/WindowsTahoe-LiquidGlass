@@ -2,7 +2,7 @@
 
 Transform your desktop to look like macOS Tahoe with these visually stunning, translucent widgets.
 
-![Preview](@Resources/Images/Thumbs/Layout02.jpg)
+![Preview](![Preview](./%40Resources/Images/Thumbs/Layout02.jpg))
 
 ### 📱 Included Widgets (13)
 
