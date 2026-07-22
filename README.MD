@@ -17,9 +17,8 @@ Clock, Calendar, Calendar Clock, Calendar Wide, Date, Date Events, Date Month, C
 ### 🚀 How to Install
 
 1. Download and install [Rainmeter](https://www.rainmeter.net/).
-2. Download and run the `.rmskin` file.
 2. Download these Fonts: Inter, SF Pro Display, Samsung Sharp Sans
-2. Download and run the .rmskin` file.
+3. Download and run the `.rmskin` file.
 
 ### 🎨 Credits
 
