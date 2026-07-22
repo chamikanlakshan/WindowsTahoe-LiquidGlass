@@ -1,0 +1,10 @@
+[Variables]
+ClockActive=1
+BatteryActive=1
+CalendarActive=1
+CalendarWideActive=0
+DateActive=0
+DateMonthActive=1
+DisplayActive=1
+SoundActive=1
+SystemActive=1
