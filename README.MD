@@ -27,4 +27,4 @@ Clock, Calendar, Calendar Clock, Calendar Wide, Date, Date Events, Date Month, C
 
 * **EasyBlur Plugin:** @fediaFedia
 
-* **Font Used:** Inter
+* **Font Used:** Inter, SF Pro Display, Samsung Sharp Sans
