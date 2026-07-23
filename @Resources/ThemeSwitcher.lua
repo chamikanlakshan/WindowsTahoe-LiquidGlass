@@ -154,7 +154,7 @@ local function SwitchTheme(toLight)
             local target = toLight and w.light or w.dark
             local configPath = BASE .. w.path
 
-            -- FIX 1: Explicit deactivate first â€” prevents the old skin from
+            -- FIX 1: Explicit deactivate first — prevents the old skin from
             bangs[#bangs + 1] = '[!DeactivateConfig "' .. configPath .. '"]'
             bangs[#bangs + 1] = '[!WriteKeyValue "' .. configPath .. '" "AlphaValue" "0" "#SETTINGSPATH#Rainmeter.ini"]'
             bangs[#bangs + 1] = '[!ActivateConfig "' .. configPath .. '" "' .. target .. '"]'

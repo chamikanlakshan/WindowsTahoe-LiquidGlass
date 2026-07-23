@@ -9,7 +9,7 @@ end
 
 -- Reads all 5 notes from the file, removes empty slots, writes compacted
 function CompactEvents()
-    local varsPath = SKIN:GetVariable('@') .. 'Calender\\Variables.inc'
+    local varsPath = SKIN:GetVariable('@') .. 'Calendar\\Variables.inc'
 
     local keys = { 'ManualNote', 'ManualNote2', 'ManualNote3', 'ManualNote4', 'ManualNote5' }
     local keyIndex = {}

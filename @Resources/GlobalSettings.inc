@@ -2,7 +2,7 @@
 ScaleDpi=1
 OverrideAutoScale=0
 SourceSize=512
-ActiveTab=3
+ActiveTab=1
 BlurDisabled=0
 FirstRunDone=1
 TextSizeRatio=0.1
